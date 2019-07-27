@@ -9,9 +9,7 @@ does this:
 ![First time getting it working](./3DMagneticLines.png)
 
 <video controls width="100%">
-
-    <source src="animation.avi"
-            type="video/avi">
-
-    Sorry, your browser or readme.md doesn't support html5 embedded videos. Here is a youtube [link](https://youtu.be/B3bTxSRhlVY)
+<source src="./animation.avi" type="video/avi"> 
 </video>
+
+[On Youtube](https://youtu.be/B3bTxSRhlVY)
