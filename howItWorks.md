@@ -1,6 +1,6 @@
 # How It Works
 
-1. We get the relative vector between 2 points, where the first point is the end the line we are growing.
+1. We get the relative vector between 2 points, where the first point is the of the line we are growing.
 ```
 [deltaX, deltaY, deltaZ]
 ```
@@ -23,4 +23,4 @@ North results: [summedX, summedY, summedZ]
 South results: [summedX, summedY, summedZ]
 ```
 
-5. Then we add those together for a final summed vector. This vector is pointing in the direction we want our line to grow, but it can vary in size, so we get the ratio of its distance to sides like we did with the first 2 points in step `2.` Now that we have the ratio vector of the direction we want to move in, we can always move the same amount for each iteration as the line grows by multiplying 10 or 0.1 or whatever we choose for the scale of the grid.
+5. Then we add those together for a final summed vector. This vector is pointing in the direction we want our line to grow, but it can vary in size, so we get the ratio of its distance to sides like we did with the first 2 points in step **(2.)** Now we have the ratio vector of the direction we want to move in. We can always move the same amount for each iteration as the line grows by multiplying by 10 or 0.1 or whatever we choose for the scale of the grid.
